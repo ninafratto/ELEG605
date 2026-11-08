@@ -314,8 +314,8 @@ def run_5fold_cv_mapper_evaluation(csv_path="master_dataset_split.csv", feature_
 
 
 if __name__ == "__main__":
-    # 1. Generate 5-Fold Cross Validation fold plot
+    start_time = time.perf_counter()
     run_5fold_cv_mapper_evaluation()
-    
-    # 2. Generate Hyperparameter sweep plot
     plot_hyperparameter_evaluation()
+    elapsed_time = time.perf_counter() - start_time
+    print(f"\n[INFO] Execution time: {elapsed_time:.2f} seconds.")
