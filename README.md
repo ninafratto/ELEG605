@@ -1,5 +1,5 @@
 # ELEG605
-This repository holds the dataset and run files for the ELEG605 class project. The dataset was taken from https://github.com/ImperialCollegeLondon/polymer_blend_morphology but is copied here for convenience.
+This repository holds the run files for the ELEG605 class project. The dataset was taken from https://github.com/ImperialCollegeLondon/polymer_blend_morphology.
 
 Below are descriptions for the purpose of each file. Gemini was used to generate and debug the scripts.
 
