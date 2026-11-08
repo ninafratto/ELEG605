@@ -106,4 +106,7 @@ def main():
     plt.show()
 
 if __name__ == "__main__":
+    start_time = time.perf_counter()
     main()
+    elapsed_time = time.perf_counter() - start_time
+    print(f"\n[INFO] Execution time: {elapsed_time:.2f} seconds.")
