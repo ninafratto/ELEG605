@@ -1,5 +1,5 @@
 # ELEG605
-This repository holds the run files for the ELEG605 class project. The dataset was taken from https://github.com/ImperialCollegeLondon/polymer_blend_morphology.
+This repository holds the run files for the ELEG605 class project. The dataset was taken from https://github.com/ImperialCollegeLondon/polymer_blend_morphology. The pre-trained checkpoint for ResNet-50 can be found at https://github.com/facebookresearch/moco/tree/KaimingHe-patch-1.
 
 Below are descriptions for the purpose of each file. Gemini was used to generate and debug the scripts.
 
