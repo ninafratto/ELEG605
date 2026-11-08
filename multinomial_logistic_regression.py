@@ -167,6 +167,7 @@ def train_and_evaluate_multinomial_logistic_regression(X_all, feature_df, label_
 
 
 if __name__ == "__main__":
+    start_time = time.perf_counter()
     images_directory = "./Images_set"
     csv_labels_path = "./master_dataset_split.csv"
     name_column = "labels"
@@ -193,3 +194,6 @@ if __name__ == "__main__":
             label_col=label_column,
             l2_lambda=0.1
         )
+    
+    elapsed_time = time.perf_counter() - start_time
+    print(f"\n[INFO] Execution time: {elapsed_time:.2f} seconds.")
