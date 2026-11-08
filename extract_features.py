@@ -155,5 +155,7 @@ def extract_features_for_split(split_tag="dev"):
 
 
 if __name__ == "__main__":
-    # Default execution extracts features strictly for dev split
+    start_time = time.perf_counter()
     extract_features_for_split(split_tag="dev")
+    elapsed_time = time.perf_counter() - start_time
+    print(f"\n[INFO] Execution time: {elapsed_time:.2f} seconds.")
