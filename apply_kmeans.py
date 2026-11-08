@@ -90,4 +90,7 @@ def evaluate_kmeans_head(n_components=50, n_clusters=3, prefix="moco_features_de
 
 
 if __name__ == "__main__":
+    start_time = time.perf_counter()
     evaluate_kmeans_head(n_components=50, prefix="moco_features_dev", random_state=42)
+    elapsed_time = time.perf_counter() - start_time
+    print(f"\n[INFO] Execution time: {elapsed_time:.2f} seconds.")
